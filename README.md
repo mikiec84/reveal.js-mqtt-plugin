@@ -2,6 +2,8 @@
 
 Simple MQTT plugin for [reveal.js](https://github.com/hakimel/reveal.js) (framework for easily creating beautiful presentations using HTML).
 
+![Image of mqtt-reveal.js](https://github.com/roccomuso/reveal.js-mqtt-plugin/blob/master/slide-example.PNG)
+
 # Installation
 
 Place the mqtt directory within the reveal.js plugin directory - that's it. Tested with version 3.2.0 of reveal.js.
