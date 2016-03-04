@@ -1,7 +1,8 @@
 /*
 *
-*  MQTT plugin for Reveal.js
+*  -- MQTT plugin for Reveal.js --
 *  @Author: Rocco Musolino - hackerstribe.com
+*  Official repo: https://github.com/roccomuso/reveal.js-mqtt-plugin
 *
 */
 

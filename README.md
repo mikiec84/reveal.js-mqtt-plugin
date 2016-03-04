@@ -92,6 +92,7 @@ section[mqtt] span {
 # Credits
 
 Writter by **Rocco Musolino** for reveal.js
+
 Website: [hackerstribe.com](http://www.hackerstribe.com)
 
 Thanks to the [Paho Project](https://eclipse.org/paho/clients/js/) for the beautiful JS MQTT library (mqttws31.js).
