@@ -20,10 +20,10 @@ After copying the 'mqtt' directory into the reveal.js 'plugins' directory, you a
 
         // ... add your other settings here ...
 
-		mqtt_broker: '192.168.1.111', // Broker address
-		mqtt_port: '3000', // MQTT over Web Socket port
-		mqtt_username: '', // username [optional]
-		mqtt_password: '', // username [optional]
+	mqtt_broker: '192.168.1.111', // Broker address
+	mqtt_port: '3000', // MQTT over Web Socket port
+	mqtt_username: '', // username [optional]
+	mqtt_password: '', // username [optional]
 
         // Optional reveal.js plugins
         dependencies: [
@@ -31,7 +31,7 @@ After copying the 'mqtt' directory into the reveal.js 'plugins' directory, you a
 
             // add THIS dependencies for MQTT plugin
             { src: 'plugin/mqtt/mqttws31.js', async: true },
-			{ src: 'plugin/mqtt/mqtt.js', async: true }
+	    { src: 'plugin/mqtt/mqtt.js', async: true }
 
         ]
     });
@@ -51,9 +51,9 @@ You can also specify for the <code>span</code> element an optional attribute for
 <section mqtt>
 	<h1>Temperature:</h1>
 	<h2>
-		<span json-field="temperature">
-			livingroom/sensor/A
-		</span> °
+	  <span json-field="temperature">
+	    livingroom/sensor/A
+	  </span> °
 	</h2>
 </section>
 ```
@@ -65,10 +65,10 @@ Without the <code>json-field</code> attribute, the raw data will be printed as i
 <section mqtt>
 	<h1>Incoming raw data:</h1>
 	<h2>
-		<span>bedroom/sensor/B</span>
+	  <span>bedroom/sensor/B</span>
 	</h2>
 	<h2>
-		<span>another/topic/C</span>
+	  <span>another/topic/C</span>
 	</h2>
 </section>
 ```
@@ -91,9 +91,7 @@ section[mqtt] span {
 
 # Credits
 
-Writter by **Rocco Musolino** for reveal.js
-
-Website: [hackerstribe.com](http://www.hackerstribe.com)
+Writter by **Rocco Musolino** [@roccomuso](https://twitter.com/roccomuso) for reveal.js
 
 Thanks to the [Paho Project](https://eclipse.org/paho/clients/js/) for the beautiful JS MQTT library (mqttws31.js).
 
